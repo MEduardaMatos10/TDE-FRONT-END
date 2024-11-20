@@ -1,0 +1,1226 @@
+@import url(' https://fonts.cdnfonts.com/css/harry-potter ');
+
+body{
+    font-family: 'Harry Potter', sans-serif;
+    background-color: rgb(0, 0, 0);
+
+}
+.header{
+   margin: auto 0;
+   max-width: 1200%;
+}
+.header__container{
+    background-image: url(https://w0.peakpx.com/wallpaper/1011/209/HD-wallpaper-harry-potter-background-for-cool-harry-potter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    background-size: cover;
+    
+   
+}
+.header__title, .header__subtitle{
+    text-align: justify;
+    color:#fff ;
+    font-size: 50px;
+    font-weight: 700;
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 30px;
+    
+    
+}
+.header__nav{
+    padding-top: 100px;
+
+}
+.header__menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5d5d5d65;
+    padding: 40px 10px;
+    flex-direction: row;
+
+    
+
+}
+
+.menu__item .menu__link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    
+
+}
+.menu__item:hover{
+    transform: scale(1.8);
+    color: #fff;
+}
+#intro{
+    background-color:#1D1C1F;
+    padding-top: 90px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    padding: 70px 30px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+   
+
+}
+#intro .intro__banner .intro__title{
+    color: #fff;
+    font-size: 80px;
+    font-size: 700;
+    padding: 30px;
+    
+   
+}
+
+#intro .intro__banner .intro__text{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 60px;
+   
+   
+}
+#intro .intro__banner .intro__button{
+    color: #fff;
+    padding: 30px 40px;
+    border: #ffffff5b solid ;
+    border-radius: 20px;
+
+
+    
+}
+
+
+#about{
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/132/667/desktop-wallpaper-hogwarts-room-of-requirement-harry-potter-hogwarts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    line-height: 40px;
+    
+    
+   
+   
+   
+}
+.about__grid{
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     
+}
+
+
+#about .section__title{
+    color: #eeba30;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+#about .section__text{
+    color: #fff;
+}
+.about__item{
+    background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-pergaminho-antigo_118047-500.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    height: 50px;
+    padding: 30px 20px; 
+    text-align: center; 
+    border-radius: 30px;
+    
+   
+    
+}
+#services{
+    height: 1000px;
+    background-image: url("https://wallpaperaccess.com/full/541378.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 500px;
+    
+
+}
+#services .service__item{
+    background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-pergaminho-antigo_118047-500.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 20px;
+    text-align: justify;
+    height: 70px;
+    width: 150%;
+    
+}
+#services .service_title, .service__description{
+    color: #fff;
+    padding-top: 10px;
+}
+#services .services__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+#services .section__title{
+    color: #eeba30;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding: 40px;
+
+}
+.section--gallery{
+
+    margin-bottom: 40px;
+}
+#gallery .section__title{
+    color: #eeba30;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+#gallery .gallery__grid, .section--news .news__grid{
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+#gallery .gallery__grid .gallery__item .btn-more:hover{
+    transform: scale(1.8s);
+    background: #fff;
+    cursor: pointer;
+}
+#gallery .gallery__grid .gallery__item .gallery__caption{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 20px;
+}
+#gallery .gallery__grid .gallery__item .btn-more, .news__content .btn-more{
+    border:  2px;
+    border-radius:10px;
+    width: 100px;
+    height: 40px;
+    background: #eeba30;
+    color: #110202;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ .news__grid .news__item{
+    background-color: #946b2d;
+    padding: 6px 10px;
+    font-size: 17px;
+    padding-top: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#news{
+    padding: 10px;
+}
+
+
+.section--news .news__grid .news__item:hover{
+    transform: scale(1.06);
+    background: #fff;
+}
+.news__content h3{
+   
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.news__content p{
+    padding-top: 10px;
+    font-size: 15px;
+ 
+}
+
+.section--news .news__grid{
+    gap:10px;
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    
+}
+#news h2{
+    color: #eeba30;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+#contact{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h2{
+    color: #eeba30;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+#contact .section__content{
+    padding-top: 30px;
+    height: 500px;
+    width: 400px;
+    padding: 30px 20px; 
+    text-align: center;
+}
+#contact .form__group{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+#contact .form__input{
+    background: #eeba30;
+    border: #fff solid 2px;
+    border-radius: 4px;
+    height: 40px;
+    
+    
+}
+
+#contact .form__button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background: #eeba30;
+    border: #fff solid 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.footer{
+    padding-top: 40px;
+}
+
+.footer__content{
+    background-color: #1D1C1F;
+    padding: 70px 0;
+}
+.footer__content .footer__text{
+    text-align: center;
+    color: #eeba30;
+}
+.footer__content .footer__social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    gap:20px ;
+}
+.footer__content .footer__social .social__link{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+}
+.footer__content .footer__social .social__link:hover{
+    transform: scale(1.8);
+    color:#eeba30;
+}
+
+@media (max-width: 1280px) {
+    #gallery .gallery__grid, .section--news .news__grid{
+        flex-direction: row;
+        display: flex;
+        gap: 10px;
+        padding-top: 50px;
+        
+       
+    }
+
+    #gallery .section__title{
+        color: #eeba30;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    #gallery .gallery_grid .gallery__item .btn-more:hover{
+        transform: scale(1.8s);
+        background: #fff;
+        cursor: pointer;
+    }
+    #gallery .gallery__grid .gallery__item .gallery__caption{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            padding-top: 20px;
+    }
+    #gallery .gallery__grid .gallery__item .btn-more, .news__content .btn-more{
+        border:  2px;
+        border-radius:10px;
+        width: 100px;
+        height: 40px;
+        background: #eeba30;
+        color: #110202;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    #news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .news__grid .news__item{
+        background-color: #946b2d;
+        padding: 9px 10px;
+        font-size: 17px;
+        padding-top: 20px;
+        color: black;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       text-align: center;
+       width: 300px;
+    
+        
+        
+    }
+
+    .section--news .news__grid .news__item:hover{
+        transform: scale(1.06);
+        background: #fff;
+    }
+    .news__content h3{
+       
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .news__content p{
+        padding-top: 10px;
+        font-size: 15px;
+     
+    }
+    
+    .section--news .news__grid{
+        gap:10px;
+        width: 20%;
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+        
+        
+    }
+    #news h2{
+        color: #eeba30;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .header__container{
+        background-image: url(https://w0.peakpx.com/wallpaper/1011/209/HD-wallpaper-harry-potter-background-for-cool-harry-potter.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 200px;
+        background-size: cover;
+        
+       
+    }
+    .header__title, .header__subtitle{
+        text-align: justify;
+        color:#fff ;
+        font-size: 40px;
+        font-weight: 700;
+        width: 50%;
+        padding-left: 70px;
+        padding-top: 30px;
+        
+        
+    }
+    .header__nav{
+        padding-top: 100px;
+    
+    }
+    .header__menu{
+        display: flex;
+        justify-content: space-around;
+        background-color: #5d5d5d65;
+        padding: 40px 10px;
+        flex-direction: row;
+    
+        
+    
+    }
+
+    #intro .intro__banner .intro__title{
+        color: #fff;
+        font-size: 60px;
+        font-size: 700;
+        padding: 30px;
+        
+       
+    }
+    
+    #intro .intro__banner .intro__text{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+        padding: 60px;
+       
+       
+    }
+    #intro .intro__banner .intro__button{
+        color: #fff;
+        padding: 20px 20px;
+        border: #ffffff5b solid ;
+        border-radius: 20px;
+    
+    }
+    .menu__item .menu__link{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+    } 
+
+    .menu__item:hover{
+        transform: scale(1.8);
+        color: #fff;
+
+    }
+    
+    #gallery .gallery__grid, .section--news .news__grid{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 30px;
+        padding-top: 50px;
+        padding-left: 30px;
+       
+    }
+
+    #gallery .section__title{
+        color: #eeba30;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    #gallery .gallery_grid .gallery__item .btn-more:hover{
+        transform: scale(1.8s);
+        background: #fff;
+        cursor: pointer;
+    }
+    #gallery .gallery__grid .gallery__item .gallery__caption{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            padding-top: 20px;
+    }
+    #gallery .gallery__grid .gallery__item .btn-more, .news__content .btn-more{
+        border:  2px;
+        border-radius:10px;
+        width: 100px;
+        height: 40px;
+        background: #eeba30;
+        color: #110202;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+     .news__grid .news__item{
+        background-color: #946b2d;
+        padding: 9px 10px;
+        font-size: 17px;
+        padding-top: 20px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+    .section--news .news__grid .news__item:hover{
+        transform: scale(1.06);
+        background: #fff;
+    }
+    .news__content h3{
+       
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .news__content p{
+        padding-top: 10px;
+        font-size: 15px;
+     
+    }
+    
+    .section--news .news__grid{
+        gap:10px;
+        width: 50%;
+        padding-left: 20px;
+        display: flex;
+    }    
+
+    #services{
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://wallpaperaccess.com/full/541378.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px;
+        
+    
+    }
+
+    #services .service__item{
+        background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-pergaminho-antigo_118047-500.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 8px 20px;
+        text-align: justify;
+        height: 70px;
+        width: 300px;
+        margin: 10px 0;
+        
+    }
+    #services .service_title, .service__description{
+        color: #fff;
+        padding-top: 10px;
+    }
+
+    #services .services__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+        flex-direction: column;
+        width: 100px;
+        gap: 15px;
+    }
+
+    #services .section__title{
+        color: #eeba30;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 70px;
+        padding: 40px;
+        margin-bottom: 40px;
+        
+    }
+
+    #news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .news__grid .news__item{
+        background-color: #946b2d;
+        padding: 9px 10px;
+        font-size: 17px;
+        padding-top: 20px;
+        color: black;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+       width: 300px;
+       height: auto;
+        
+        
+    }
+
+    .section--news .news__grid .news__item:hover{
+        transform: scale(1.06);
+        background: #fff;
+    }
+    .news__content h3{
+       
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .news__content p{
+        padding-top: 10px;
+        font-size: 15px;
+     
+    }
+    
+    .section--news .news__grid{
+        gap:10px;
+        width: 20%;
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+        
+        
+    }
+    #news h2{
+        color: #eeba30;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .header__container{
+        background-image: url(https://w0.peakpx.com/wallpaper/1011/209/HD-wallpaper-harry-potter-background-for-cool-harry-potter.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-top: 200px;
+        background-size: cover;
+        
+        
+       
+    }
+    .header__title, .header__subtitle{
+        text-align: justify;
+        color:#fff ;
+        font-size: 30px;
+        font-weight: 700;
+        width: 50%;
+        padding-left: 70px;
+        padding-top: 30px;
+        
+        
+    }
+    .header__nav{
+        padding-top: 100px;
+    
+    }
+
+    .menu__item:hover{
+        transform: scale(1.8);
+        color: #fff;
+    }
+
+    .header__menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5d5d5d65;
+    padding: 40px 10px;
+    flex-direction: row;
+    }
+
+    #intro .intro__banner .intro__title{
+        color: #fff;
+        font-size: 30px;
+        font-size: 700;
+        padding: 30px;
+        
+       
+    }
+    
+    #intro .intro__banner .intro__text{
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        padding: 60px;
+       
+       
+    }
+
+    #intro .intro__banner .intro__button{
+        color: #fff;
+        padding: 10px 10px;
+        border: #ffffff5b solid ;
+        border-radius: 15px;
+    
+    }
+
+    .menu__item .menu__link{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+    } 
+
+    #about{
+        background-image: url("https://e1.pxfuel.com/desktop-wallpaper/132/667/desktop-wallpaper-hogwarts-room-of-requirement-harry-potter-hogwarts.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        line-height: 40px;
+        padding-left: 50px;
+    }
+    
+    .about__item{
+        background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-pergaminho-antigo_118047-500.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 10px;
+        width: 80%;
+        max-width: 500px;
+        padding: 20px; 
+        text-align: center; 
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+        
+    }
+
+
+
+    #about .section__title {
+        color: #eeba30;
+        text-align: center;
+        font-size: 40px;
+       
+       
+       
+    }
+        
+       
+  #about .section__text{
+    font-size: 15px;
+    
+  } 
+
+  #gallery .gallery__grid, .section--news .news__grid{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 68px;
+   
+    }
+
+
+#gallery .section__title{
+    color: #eeba30;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#gallery .gallery__grid .gallery__item .btn-more:hover{
+    transform: scale(1.8s);
+    background: #fff;
+    cursor: pointer;
+}
+#gallery .gallery__grid .galleryitem .gallery__caption{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 20px;
+}
+#gallery .gallery__grid .galleryitem .btn-more, .news__content .btn-more{
+    border:  2px;
+    border-radius:10px;
+    width: 80px;
+    height: 40px;
+    background: #eeba30;
+    color: #110202;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ .news__grid .news__item{
+    background-color: #946b2d;
+    padding: 9px 10px;
+    font-size: 17px;
+    padding-top: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.section--news .news__grid .news__item:hover{
+    transform: scale(1.06);
+    background: #fff;
+}
+.news__content h3{
+   
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.news__content p{
+    padding-top: 10px;
+    font-size: 15px;
+ 
+}
+
+.section--news .news__grid{
+    gap:10px;
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+}    
+
+#services{
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpaperaccess.com/full/541378.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    
+
+}
+
+#services .service__item{
+    background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-pergaminho-antigo_118047-500.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8px 20px;
+    text-align: justify;
+    height: 70px;
+    width: 300px;
+    margin: 10px 0;
+    
+}
+#services .service_title, .service__description{
+    color: #fff;
+    padding-top: 10px;
+}
+
+#services .services__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    width: 100px;
+    gap: 15px;
+}
+
+#services .section__title{
+    color: #eeba30;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding: 40px;
+    margin-bottom: 40px;
+    
+}
+
+#news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.news__grid .news__item{
+    background-color: #946b2d;
+    padding: 9px 10px;
+    font-size: 17px;
+    padding-top: 20px;
+    color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   width: 300px;
+   height: auto;
+    
+    
+}
+
+.section--news .news__grid .news__item:hover{
+    transform: scale(1.06);
+    background: #fff;
+}
+.news__content h3{
+   
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.news__content p{
+    padding-top: 10px;
+    font-size: 15px;
+ 
+}
+
+.section--news .news__grid{
+    gap:10px;
+    width: 20%;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    
+    
+}
+#news h2{
+    color: #eeba30;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+       
+    
+}
+   
+
+/* sm */
+@media (max-width: 640px) {
+    .header__container{
+        background-image: url(https://w0.peakpx.com/wallpaper/1011/209/HD-wallpaper-harry-potter-background-for-cool-harry-potter.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-top: 200px;
+        background-size: cover;
+        
+        
+       
+    }
+
+    #gallery .gallery__grid, .section--news .news__grid{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 30px;
+        padding-top: 50px;
+        padding-left: 28%;
+       
+    }
+
+    #services{
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://wallpaperaccess.com/full/541378.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       
+        
+    
+    }
+    
+    #services .service__item{
+        background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-pergaminho-antigo_118047-500.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 8px 20px;
+        text-align: justify;
+        height: 70px;
+        width: 300px;
+        margin: 10px 0;
+        
+    }
+    #services .service_title, .service__description{
+        color: #fff;
+        padding-top: 10px;
+    }
+    
+    #services .services__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+        flex-direction: column;
+        width: 100px;
+        gap: 15px;
+    }
+    
+    #services .section__title{
+        color: #eeba30;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 70px;
+        padding: 40px;
+        margin-bottom: 40px;
+        
+    }
+    
+    #news{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .news__grid .news__item{
+        background-color: #946b2d;
+        padding: 9px 10px;
+        font-size: 17px;
+        padding-top: 20px;
+        color: black;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+       width: 300px;
+       height: auto;
+        
+        
+    }
+    
+    .section--news .news__grid .news__item:hover{
+        transform: scale(1.06);
+        background: #fff;
+    }
+    .news__content h3{
+       
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .news__content p{
+        padding-top: 10px;
+        font-size: 15px;
+     
+    }
+    
+    .section--news .news__grid{
+        gap:10px;
+        width: 20%;
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+        
+        
+    }
+    #news h2{
+        color: #eeba30;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    }
+   
+    @media (max-width: 475px) {
+        #about {
+            height: auto;
+            padding: 20px;
+            align-items: center;
+            padding-left: 50px;
+        }
+        #about .section__title {
+            font-size: 30px;
+        }
+        .about__item {
+            font-size: 14px;
+            padding: 15px 25px;
+            height: auto;
+            
+        }
+        .gallery__item{
+            padding-left: 75px;
+        }
+        #services {
+            padding: 10px;
+            height: auto;
+        }
+        .services__list{
+            padding: 15px 20px;
+            width: 100%;
+        }
+        #services .section__title {
+            font-size: 30px;
+        }
+        #services .service__item {
+            width: 100%;
+            padding: 70px 50px;
+            
+        }
+        .section--news .news__grid {
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            padding-left: 25%;
+        }
+        #gallery .gallery__grid {
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 0;
+        }
+        #gallery .section__title {
+            font-size: 30px;
+        }
+        .btn-more {
+            width: 80px;
+            height: 35px;
+            font-size: 12px;
+        }
+    
+    }
+
+
+
+    
+
+
